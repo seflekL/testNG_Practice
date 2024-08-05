@@ -12,19 +12,18 @@
     3- suite'den baslayarak test hiyerarsisine uygun bicimde
        calistirmak istedigimiz method/class/package'lari secmek
 
---><suite name="smoke test suit">
-    <test name="smoke test suit">
+-->
 
-       <classes>
-           <class name="tests.day13_TestNG_Framework.C04_PageClassiKullanma"></class>
-           <class name="tests.day13_TestNG_Framework.C03_DependsOnMethods"></class>
-           <class name="tests.day14_TestNG_Framework.C04_DropdownMenuTesti"></class>
-           <class name="tests.day14_TestNG_Framework.C05_FormDoldurma"></class>
-           <class name="tests.day15_TestNG_Assertions.C04_MultipleAssertion"></class>
-       </classes>
+<suite name="smoke test suiti">
+    <test name="smoke test">
+        <classes>
+
+            <class name="tests.day13_TestNG_Framework.C04_PageClassiKullanma"></class>
+            <class name="tests.day14_TestNG_Framework.C03_FacebookTest"></class>
+            <class name="tests.day14_TestNG_Framework.C04_DropdownMenuTesti"></class>
+            <class name="tests.day14_TestNG_Framework.C06_WebUniversityTesti"></class>
+            <class name="tests.day15_TestNG_Assertions.C01_NegativeLoginTesti"></class>
+            <class name="tests.day15_TestNG_Assertions.C04_MultipleAssertion"></class>
+        </classes>
     </test>
-
-
 </suite>
-
-
