@@ -105,4 +105,14 @@ public class AutomationExcercise {
     @FindBy(xpath = "//*[text()='Account Deleted!']")
     public WebElement deleteAccountVerificationElementi;
 
-    }
+
+    @FindBy (xpath = "//*[text()='Login']")
+    public WebElement logintoyouraccountLoginButtonElementi;
+
+    @FindBy (xpath = "(//*[@name='email'])[1]")
+    public WebElement logintoyouraccountEmailBoxElementi;
+
+    @FindBy(xpath = "//*[@name='password']")
+    public WebElement logintoyouraccountPasswordBoxElementi;
+
+}
