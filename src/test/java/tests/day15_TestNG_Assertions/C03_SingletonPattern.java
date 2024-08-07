@@ -7,6 +7,7 @@ import pages.TestOtomasyonuPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+
 public class C03_SingletonPattern {
 
     @Test

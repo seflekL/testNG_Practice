@@ -31,14 +31,15 @@ public class C05_FormDoldurma {
         Assert.assertTrue(toFormPage.sirtAgrisiCheckboxElementi.isSelected());
 
         //4- Seker ve Epilepsi checkbox’larininin seçili olmadigini test edin
+
         jse.executeScript("arguments[0].scrollIntoView({block: 'center'});",toFormPage.sekerCheckboxElementi);
-        ReusableMethods.bekle(1);
+        ReusableMethods.bekle(5);
 
         Assert.assertFalse(toFormPage.sekerCheckboxElementi.isSelected());
         Assert.assertFalse(toFormPage.epilepsiCheckboxElementi.isSelected());
 
         //5- sayfayi kapatin
-        ReusableMethods.bekle(3);
+        ReusableMethods.bekle(1);
         Driver.quitDriver();
     }
 }

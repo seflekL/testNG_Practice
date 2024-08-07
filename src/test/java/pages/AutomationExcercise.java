@@ -1,14 +1,9 @@
 package pages;
 
-import org.checkerframework.checker.units.qual.Force;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.events.WebDriverListener;
 import utilities.Driver;
-
-import javax.imageio.plugins.tiff.ExifParentTIFFTagSet;
 
 public class AutomationExcercise {
 
@@ -114,5 +109,12 @@ public class AutomationExcercise {
 
     @FindBy(xpath = "//*[@name='password']")
     public WebElement logintoyouraccountPasswordBoxElementi;
+
+    @FindBy(xpath = "//*[text()='Your email or password is incorrect!']")
+    public WebElement loginincorrectemailPassTextElementi;
+
+    @FindBy(xpath = "//*[@class='fa fa-lock']")
+    public WebElement logoutButtonElementi;
+
 
 }
