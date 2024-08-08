@@ -116,5 +116,41 @@ public class AutomationExcercise {
     @FindBy(xpath = "//*[@class='fa fa-lock']")
     public WebElement logoutButtonElementi;
 
+    @FindBy (xpath = "//*[@id=\"form\"]/div/div/div[3]/div/form/p")
+    public  WebElement emailAdressAlreadyExistElemneti;
+
+    @FindBy (xpath = "//*[@class='fa fa-envelope']")
+    public WebElement contactUsElementi;
+
+    @FindBy (xpath = "//*[text()='Get In Touch']")
+    public WebElement contactUSgetintouchTextElmenti;
+
+    @FindBy (xpath = "(//*[@class='form-control'])[1]")
+    public  WebElement contactUsNameboxElementi;
+
+    @FindBy (xpath = "(//*[@class='form-control'])[2]")
+            public  WebElement contactUsEmailBoxElementi;
+
+    @FindBy (xpath = "(//*[@class='form-control'])[3]")
+    public  WebElement contactUSsubjectBoxElementi;
+
+    @FindBy (xpath = "(//*[@class='form-control'])[4]")
+    public  WebElement contactUsBodyBoxElementi;
+
+    @FindBy (xpath = "(//*[@class='form-control'])[5]")
+    public  WebElement contactUSChooseFileBoxElementi;
+
+    @FindBy (xpath = "//*[@name='submit']")
+    public WebElement contactUsSubmitButtonElementi;
+
+    @FindBy (xpath = "//*[@class='status alert alert-success']")
+    public WebElement contactUsSuccesTextElementi;
+
+    @FindBy (xpath = "//*[@class='btn btn-success']")
+    public WebElement contactUSHomeButton;
+
+
+
+
 
 }
