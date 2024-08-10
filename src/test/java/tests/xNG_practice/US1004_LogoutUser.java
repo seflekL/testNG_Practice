@@ -9,7 +9,7 @@ import utilities.Driver;
 import utilities.TestBaseCross;
 import utilities.TestBaseRapor;
 
-public class TC4_LogoutUser  extends TestBaseCross {
+public class US1004_LogoutUser  extends TestBaseCross {
     @Test
     public void TC4(){
         //extentTest=extentReports.createTest("US1004 User Logout testi",

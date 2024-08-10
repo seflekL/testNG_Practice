@@ -10,7 +10,7 @@ import utilities.TestBaseCross;
 import utilities.TestBaseRapor;
 
 
-public class TC3_LoginUserwithincorrectemailandpassword extends TestBaseCross {
+public class US1003_LoginUserwithincorrectemailandpassword extends TestBaseCross {
 
     @Test
     public void TC03(){

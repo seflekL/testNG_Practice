@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class AutomationExcercise {
 
     public AutomationExcercise() {
@@ -148,6 +150,38 @@ public class AutomationExcercise {
 
     @FindBy (xpath = "//*[@class='btn btn-success']")
     public WebElement contactUSHomeButton;
+
+    @FindBy (xpath = "(//*[@class='fa fa-list'])[1]")
+    public WebElement  testcaseLoginButton;
+    @FindBy (xpath = "//*[@id=\"form\"]/div/div[1]/div/h2/b")
+    public WebElement testCaseTitle;
+    @FindBy (xpath = "//*[text()= ' Products']")
+    public WebElement productLinkElementi;
+    @FindBy (id = "sale_image")
+    public WebElement categoryMainLogo;
+
+    @FindBy (xpath = "//*[@class='product-image-wrapper']")
+    public List<WebElement> categoryproductList;
+
+    @FindBy  (xpath = "//*[text()= 'View Product'][1]")
+    public WebElement categoryFirstProductLink;
+
+    @FindBy(xpath = "//body//section//p[4]")
+    public WebElement categoryFirstProductBrandElementi;
+
+    @FindBy (xpath = "/html/body/section/div/div/div[2]/div[2]/div[2]/div/p[1]")
+    public WebElement categoryFirstProductCategoryElementi;
+
+    @FindBy (xpath = "//*[text()= 'Rs. 500']")
+    public WebElement categoryFirstProductPriceElementi;
+
+    @FindBy (xpath = "//div[@class='product-details']//p[2]")
+    public WebElement categoryFirstProductavaibilityStock;
+
+    @FindBy (xpath = "//body//section//p[3]")
+    public WebElement categoryFristProductCondtionElementi;
+
+
 
 
 

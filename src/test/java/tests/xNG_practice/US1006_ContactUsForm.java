@@ -12,7 +12,7 @@ import utilities.ReusableMethods;
 
 import java.sql.ResultSet;
 
-public class TC6_ContactUsForm {
+public class US1006_ContactUsForm {
   //https://youtube.com/watch?v=Uraakjx1TYM
     @Test
     //Features: US1006 Users can easily send message through contact form.
@@ -52,6 +52,5 @@ public class TC6_ContactUsForm {
         automationExcercise.contactUSHomeButton.click();
         ReusableMethods.bekle(2);
         Driver.quitDriver();
-
     }
 }

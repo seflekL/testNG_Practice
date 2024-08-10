@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.TestBaseRapor;
 
-public class T2_LoginUserwithcorrectemailandpassword extends TestBaseRapor {
+public class US1002_LoginUserwithcorrectemailandpassword extends TestBaseRapor {
 
     @Test
     public void testLogin() {

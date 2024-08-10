@@ -10,7 +10,7 @@ import utilities.Driver;
 import utilities.TestBaseCross;
 import utilities.TestBaseRapor;
 
-public class TC5_RegisterUserwithexistingemail extends TestBaseRapor {
+public class US1005_RegisterUserwithexistingemail extends TestBaseRapor {
 
     //Feature: Test Case 5: Register User with existing email
      @Test

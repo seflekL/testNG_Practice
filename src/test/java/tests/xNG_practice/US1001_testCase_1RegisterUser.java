@@ -11,7 +11,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class T1_testCase_1RegisterUser {
+public class US1001_testCase_1RegisterUser {
 
 
     @Test
