@@ -181,6 +181,26 @@ public class AutomationExcercise {
     @FindBy (xpath = "//body//section//p[3]")
     public WebElement categoryFristProductCondtionElementi;
 
+    @FindBy (id = "search_product")
+    public WebElement categorysearchProductBoxElementi;
+
+    @FindBy (id = "submit_search")
+    public WebElement getCategorysearchProductBoxButtonElementi;
+
+    @FindBy (xpath = "//*[text()='Subscription']")
+    public WebElement footerSubscriptionTextElementi;
+
+    @FindBy (id = "susbscribe_email")
+    public WebElement  footersubscribeEmailBox;
+
+    @FindBy (xpath = "//*[@id='subscribe']")
+    public WebElement footersubscribeButton;
+
+
+
+
+
+
 
 
 
