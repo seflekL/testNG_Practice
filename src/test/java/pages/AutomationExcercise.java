@@ -248,6 +248,49 @@ public class AutomationExcercise {
     public WebElement viewcartButtonElementi;
     @FindBy (className = "disabled")
     public WebElement cartQuantityBoxElementi;
+    @FindBy (xpath = "//*[text()='Proceed To Checkout']")
+    public WebElement proceedcheckoutButtonElementi;
+    @FindBy (xpath = "//*[text()='Register / Login']")
+    public WebElement registerLoginButtonElementi;
+    @FindBy (xpath = "//*[text()='Continue']")
+    public WebElement accountcreatedContinueButtonElementi;
+    @FindBy (xpath = "//*[text()='Your delivery address']")
+    public WebElement yourdeliveryaddressTExtElementi;
+    @FindBy (className = "form-control")
+    public WebElement  checkoutpageBodyBoxElementi;
+    @FindBy (xpath = "//*[@name='name_on_card']")
+    public WebElement paymentnameOntheCardBox;
+    @FindBy (xpath = "//*[@name='card_number']")
+    public WebElement paymentCardNumberBoxElementi;
+    @FindBy (xpath = "//*[@name='cvc']")
+    public WebElement paymenCVCboxElementi;
+    @FindBy (xpath = "//*[@name='expiry_month']")
+    public WebElement paymentExpirationBoxElementi;
+    @FindBy (xpath = "//*[@name='expiry_year']")
+    public WebElement paymentYearCardBoxElementi;
+    @FindBy (id = "submit")
+    public WebElement paymentPayandConfirmButtonElementi;
+
+    @FindBy (xpath = "//*[@class='cart_description']")
+    public WebElement checkoutItemDescriptionBoxElementi;
+
+    @FindBy (xpath = "//*[text()='Place Order']")
+    public WebElement checkoutPlaceOrderButtonElementi;
+
+    @FindBy (xpath = "//*[text()='Congratulations! Your order has been confirmed!']")
+    public WebElement paymentdonepageCongratulationsorderconfirmedTextButton;
+
+    @FindBy (xpath = "//*[text()='Continue']")
+    public WebElement paymentDonneContinueButtonElementi;
+
+
+
+
+
+
+
+
+
 
 
 

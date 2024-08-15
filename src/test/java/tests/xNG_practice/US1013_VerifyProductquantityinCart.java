@@ -16,7 +16,7 @@ public class US1013_VerifyProductquantityinCart {
 
     @Test
 
-    //Features: user should be able to verifyproduct quantity in Cart
+    //Feature: user should be able to verifyproduct quantity in Cart
     //Scenario : Test Case 1013 : Verify Product quantity in Cart
 
     public void TC1013(){
