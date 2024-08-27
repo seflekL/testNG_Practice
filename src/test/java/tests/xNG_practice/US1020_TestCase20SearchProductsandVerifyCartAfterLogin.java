@@ -20,7 +20,7 @@ public class US1020_TestCase20SearchProductsandVerifyCartAfterLogin {
     @Test
     public void TC1020() {
         AutomationExcercise automationExcercise = new AutomationExcercise();
-        int flag = 0;
+
         //1. Launch browser
         //2. Navigate to url 'http://automationexercise.com'
         Driver.getDriver().get(ConfigReader.getProperty("autoUrl"));
