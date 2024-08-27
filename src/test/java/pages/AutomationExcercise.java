@@ -283,6 +283,72 @@ public class AutomationExcercise {
     @FindBy (xpath = "//*[text()='Continue']")
     public WebElement paymentDonneContinueButtonElementi;
 
+    @FindBy (xpath = "//*[@class='cart_quantity_delete']")
+    public WebElement cartScreenRemoveButonElmenti;
+
+    @FindBy (id = "empty_cart")
+    public WebElement cartScreenEmpyCartScreenText;
+
+    @FindBy (xpath = "//*[text()='Category']")
+    public WebElement leftsidebarCategoriesTextElementi;
+
+    @FindBy (xpath = "(//*[@class='fa fa-plus'])[1]")
+    public WebElement leftsidebarPLUSsignButonELementi;
+
+    @FindBy(xpath = "//a[normalize-space()='Women']")
+    public WebElement leftsidebarWomenButonElementi;
+
+    @FindBy (xpath = "//a[normalize-space()='Tops']")
+    public WebElement leftsidebarWomenTopProductsButtonu;
+
+    @FindBy (xpath = "//span[@class='google-anno-t']")
+    public WebElement womenTopProductsTextElementi;
+
+    @FindBy (xpath = "//a[normalize-space()='Men']")
+    public WebElement leftsidebarsidebarMenButtonElementi;
+
+    @FindBy (xpath = "//a[normalize-space()='Jeans']")
+    public WebElement leftsidebarmenJeanButtonelementi;
+
+    @FindBy (xpath = "//*[text()='Men - Jeans Products']")
+    public WebElement  menJeansProductstTitleElementi;
+
+    @FindBy (id = "search_product")
+    public WebElement productSearchBoxelementi;
+
+    @FindBy (id = "submit_search")
+    public WebElement productSearchBoxButtonElementi;
+
+    @FindBy (xpath = "//*[@class='productinfo text-center']")
+    public List<WebElement> searchResultJeanList;
+
+    @FindBy (xpath = "(//*[text()='Add to cart'])[1]")
+    public WebElement addtocart1Elementi;
+
+    @FindBy (xpath = "(//*[text()='Add to cart'])[3]")
+    public WebElement addtocart2Elementi;
+
+    @FindBy (xpath = "(//*[text()='Add to cart'])[5]")
+    public WebElement addtocart3Elementi;
+
+    @FindBy (xpath = "//*[@class='btn btn-success close-modal btn-block']")
+    public  WebElement continueShoppingButtonElmenti;
+
+    @FindBy(id = "product-33")
+    public  List<WebElement> checkout1itemList;
+    @FindBy(id = "product-35")
+    public  List<WebElement> checkout2itemList;
+    @FindBy(id = "product-37")
+    public  List<WebElement> checkou31itemList;
+
+    @FindBy (id="cart_info_table")
+    public List<WebElement>cartList;
+
+
+
+
+
+
 
 
 
