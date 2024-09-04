@@ -244,7 +244,7 @@ public class AutomationExcercise {
     @FindBy (xpath = "//*[@class='btn btn-default cart']")
     public WebElement addtocartButton;
 
-    @FindBy (xpath = "//*[text()='View Cart']")
+    @FindBy (xpath = "(//*[text()='View Product'])[1]")
     public WebElement viewcartButtonElementi;
     @FindBy (className = "disabled")
     public WebElement cartQuantityBoxElementi;
@@ -343,6 +343,30 @@ public class AutomationExcercise {
 
     @FindBy (id="cart_info_table")
     public List<WebElement>cartList;
+
+    @FindBy (xpath = "//*[text()='All Products']")
+    public WebElement allproductTextElementi;
+
+    @FindBy (xpath = "//*[text()='Write Your Review']")
+    public WebElement productWriteyourViewTextElementi;
+    @FindBy (id = "name")
+    public WebElement prodcutReviewYourNameBoxelemeti;
+
+    @FindBy (id = "email")
+    public WebElement prodcutReviewEmailBoxelemeti;
+
+    @FindBy (id = "review")
+    public WebElement prodcutReviewrBodyBoxelemeti;
+
+    @FindBy (id = "button-review")
+    public WebElement prodcutReviewrButtonelemeti;
+
+    @FindBy(xpath = "//*[text()='Thank you for your review.']")
+    public WebElement prodcutReviewBoxThankyouforyourReviewElementi;
+
+    @FindBy (id = "button-review")
+    public WebElement prodcutReviewrButtonelesmeti;
+
 
 
 

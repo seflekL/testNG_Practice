@@ -81,5 +81,7 @@ public class US1016_PlaceOrderLoginbeforeCheckout {
         automationExcercise.paymentDonneContinueButtonElementi.click();
 
         Driver.quitDriver();
+
+
     }
 }
